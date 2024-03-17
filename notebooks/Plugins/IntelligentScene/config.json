@@ -1,0 +1,31 @@
+{
+    "schema": 1,
+    "description": "Create a scene for a Philips Hue zone.",
+    "execution_settings": {
+      "default": {
+        "max_tokens": 1000,
+        "temperature": 1.0,
+        "top_p": 0.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0
+      }
+    },
+    "input_variables": [
+      {
+        "name": "location",
+        "description": "The Philips Hue zone in the home.",
+        "default": ""
+      },
+      {
+        "name": "lights",
+        "description": "The number of lights.",
+        "default": ""
+      },
+      {
+        "name": "situation",
+        "description": "The situation to base the scene on.",
+        "default": ""
+      }
+    ]
+  }
+    
